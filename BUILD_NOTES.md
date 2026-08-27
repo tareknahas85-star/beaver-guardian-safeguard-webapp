@@ -1,5 +1,7 @@
 # Building the Android APK (Capacitor wrapper)
 
+> A GitHub Actions workflow now does all of this automatically on every push to `main`, and publishes the APK to the [latest release](https://github.com/tareknahas85-star/beaver-guardian-safeguard-webapp/releases/tag/latest). The steps below are for building it yourself locally.
+
 This repo is the SafeGuard web dashboard (React/Vite/TS), wrapped as a native Android app via Capacitor.
 
 ## Prerequisites
