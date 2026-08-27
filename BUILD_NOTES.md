@@ -1,6 +1,6 @@
 # Building the Android APK (Capacitor wrapper)
 
-This repo is the SafeGuard web app (React/Vite/TS) exported from Google AI Studio, wrapped as a native Android app via Capacitor.
+This repo is the SafeGuard web dashboard (React/Vite/TS), wrapped as a native Android app via Capacitor.
 
 ## Prerequisites
 
@@ -22,4 +22,4 @@ This repo is the SafeGuard web app (React/Vite/TS) exported from Google AI Studi
 
 - App ID: `com.microbeaver.safeguard`, app name: `SafeGuard`
 - This is a debug, unsigned-for-release build - fine for sideloading/testing, not for Play Store distribution (needs a release signing config).
-- The app currently has no real backend wiring (location tracking, screen time, etc. are static demo UI from the AI Studio prototype) - it's a visual/UX prototype, not connected to the production Beaver Guardian Firebase backend.
+- The app currently has no real backend wiring (location tracking, screen time, etc. are static demo UI) - it's a visual/UX prototype, not connected to the production Beaver Guardian Firebase backend.
